@@ -1,0 +1,238 @@
+.section11{
+    padding: 130px 0;
+    direction: rtl;
+    }
+    .section11 .col-md-3, .section11 .col-md-9 {
+        padding: 30px 0;
+        border: 1px solid#4d48485e;
+    }
+    .section11 .col-md-3{max-height: 600px;margin-bottom: 25px;}
+    @media (min-width: 768px) {
+        .section11 .col-md-9{
+            margin-right: 25px;
+            flex: 0 0 75%;
+            max-width: calc(75% - 25px);
+        }
+    }
+    .section11 .img {
+        width: 135px;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 4px 0px #726c6cc7;
+        border: 9px solid #fff;
+    }
+    .section11 .col-md-3 .main{border-bottom: 1px solid#4d48485e;margin-bottom: 10px;}
+    .section11 .col-md-3 h2{
+        margin: 15px 0;
+        color:  #222831;
+    }
+    .section11 .col-md-3 p{
+        color:  #30475e;
+    }
+    .section11 .col-md-3 h5{
+        color:  #222831;
+    }
+    .nav-pills .nav-link {
+        padding: 14px;
+        color:  #222831;
+        margin: 3px 0;
+        font-weight: bold;
+        opacity: 0.7;
+        border-radius: 0;
+    }
+    .nav-pills .nav-link:hover {
+        background-color: #f82249;
+        color: #fff;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: #f82249;
+        opacity: 1;
+    }
+    .tab-pane{padding:0 30px 0 25px;}
+    input{margin: 0 0 35px 0;}
+    .tab-pane h2 {
+        color:  #30475e;
+        margin-bottom: 24px;
+        border-bottom: 1px solid #4d48485e;
+        padding-bottom: 12px;
+    }
+    .tab-pane label {color:  #222831;}
+    .table label {
+        color: #fff;
+        padding: 3px 11px;
+        border-radius: 3px;
+    }
+    table{text-align: center;}
+    table a{text-decoration: none !important;}
+    .card{margin-bottom: 20px;}
+    .card a{
+        background-color: #f82249;
+        padding: 11px 26px;
+        color: #fff;
+        text-decoration: none;
+        margin: 15px 0;
+        border: 2px solid #f82249;
+    }
+    .card a:hover{
+        background-color: #fff;
+        color: #f82249;
+        border-color: #f82249;
+        transition: 0.5s ease-in-out;
+    }
+    .main_btn {
+        background-color: #f82249;
+        padding: 7px 26px;
+        color: #fff;
+        text-decoration: none;
+        margin: 15px 0;
+        border: 2px solid #f82249;
+    }
+    .main_btn:hover {
+        background-color: #fff;
+        color: #f82249;
+        border-color: #f82249;
+        transition: 0.5s ease-in-out;
+    }
+    .card p{color: #30475e;}
+    iframe{
+        margin-bottom: -9px;
+        width: 100%;
+        height: 500px;
+    }
+    video{margin-bottom: -9px;}
+    .section11 input[type="radio"]{
+        margin-left: 18px;
+        height: 25px;
+        width: 26px;
+    }
+    .section11 .sign input{
+        height: 80px;
+        border: 0;
+        width: 85%;
+        border-bottom: 1px solid #827f7fd9;
+    }
+    .section11 .sign input:focus{
+        outline: none !important;
+    }
+    .section11 .sign input:focus::placeholder {
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+        transition: 0.25s ease-in-out;
+    }
+    .section11 .main_question{
+        height: 80px;
+        border: 0;
+        width: 85%;
+        border-bottom: 1px solid #827f7fd9;
+    }
+    .section11 .main_question:focus{
+        outline: none !important;
+    }
+    .section11 .main_question:focus::placeholder {
+        font-size: 12px;
+        position: relative;
+        top: -20px;
+        transition: 0.25s ease-in-out;
+    }
+    .section11 h4 {margin-bottom: 20px;}
+    .section11 label {
+        font-size: 22px;
+        top: -5px;
+        position: relative;
+        color: #30475e;
+    }
+    .main_btn:hover{color: #f82249;}
+    .content_control, .content_control_2 {
+        background-color: #30475e;
+        width: 25%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 0 0 16px 16px;
+        box-shadow: 0px 0px 2px;
+      }
+      @media (max-width: 1200px) {
+        .content_control, .content_control_2 {
+          width: 31%;
+        }
+      }
+      @media (max-width: 992px) {
+        .content_control, .content_control_2 {
+          width: 35%;
+        }
+      }
+      @media (max-width: 768px) {
+        .content_control, .content_control_2 {
+          width: 48%;
+        }
+      }
+      .content_control button, .content_control_2 button {
+        background-color: #f82249;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 25px;
+        margin: 10px 0;
+        border: none;
+      }
+      /* .content_control button:hover, .content_control_2 button:hover {
+        color: #fff;
+      } */
+      .section11 .btn-link{
+          text-decoration: none;
+          color: #f82249;
+          font-size: 23px;
+      }
+      .section11 .btn-link:focus{
+        outline: none !important;
+    }
+    .main_video {
+        /* min-height: 639px; */
+        background:rgba(0, 153, 247, 0.8); 
+        background: -webkit-linear-gradient(to right,  rgba(241, 23, 18, 0.8),  rgba(0, 153, 247, 0.8));
+        background: linear-gradient(to right, rgba(241, 23, 18, 0.8), rgba(0, 153, 247, 0.8));
+        color: #fff;
+    }
+    .main_video .main_button {
+        margin: 9% auto;
+        padding: 90px;
+        font-size: 34px;
+        box-shadow: 0px 0px 3px 0px #000;
+    }
+    .account input {
+        height: 50px !important;
+    }
+    button {
+        margin-bottom: 27px;
+        background-color: #f8234a;
+        border: 0;
+        padding: 14px;
+        color: #fff;
+        border: 2px solid #f8234a;
+        display: block;
+    }
+    button:hover{
+        color: #f8234a;
+        background-color: #fff;
+        transition: 0.5s ease-in-out;
+    }
+    textarea:focus::placeholder {
+        font-size: 12px;
+        position: relative;
+        top: -5px;
+        transition: 0.25s ease-in-out;
+    }
+    textarea:focus{
+        outline: none !important;
+    }
+    textarea {
+        display: block;
+        margin: 32px 0;
+        height: 50px;
+        border: 0;
+        border-bottom: 1px solid #827f7fd9;
+    }
+    textarea{width: 92%; min-height: 120px;}
+    @media (max-width: 768px) {
+        textarea{width: 84%;}
+    }
